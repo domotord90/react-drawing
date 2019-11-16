@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-drawing/static/css/main.41412406.chunk.css",
+    "main.js": "/react-drawing/static/js/main.9fc328fe.chunk.js",
+    "main.js.map": "/react-drawing/static/js/main.9fc328fe.chunk.js.map",
+    "runtime-main.js": "/react-drawing/static/js/runtime-main.06e82327.js",
+    "runtime-main.js.map": "/react-drawing/static/js/runtime-main.06e82327.js.map",
+    "static/js/2.43109d01.chunk.js": "/react-drawing/static/js/2.43109d01.chunk.js",
+    "static/js/2.43109d01.chunk.js.map": "/react-drawing/static/js/2.43109d01.chunk.js.map",
+    "index.html": "/react-drawing/index.html",
+    "precache-manifest.3ae60834c8eaa2a686c10ae83e342a06.js": "/react-drawing/precache-manifest.3ae60834c8eaa2a686c10ae83e342a06.js",
+    "service-worker.js": "/react-drawing/service-worker.js",
+    "static/css/main.41412406.chunk.css.map": "/react-drawing/static/css/main.41412406.chunk.css.map",
+    "static/media/App.css": "/react-drawing/static/media/pencil.4619d2de.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.06e82327.js",
+    "static/js/2.43109d01.chunk.js",
+    "static/css/main.41412406.chunk.css",
+    "static/js/main.9fc328fe.chunk.js"
+  ]
+}
