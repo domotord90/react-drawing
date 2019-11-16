@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8c8cec3f2146c3ccee4915b63a4c06a7",
+    "revision": "8defe8ac18f5e0d69f2e2e97b460fdd0",
     "url": "/react-drawing/index.html"
   },
   {
-    "revision": "2556543adade586e6b2e",
+    "revision": "3f31e3c90e33410e0b26",
     "url": "/react-drawing/static/css/main.41412406.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-drawing/static/js/2.43109d01.chunk.js"
   },
   {
-    "revision": "2556543adade586e6b2e",
-    "url": "/react-drawing/static/js/main.9fc328fe.chunk.js"
+    "revision": "3f31e3c90e33410e0b26",
+    "url": "/react-drawing/static/js/main.a92d2487.chunk.js"
   },
   {
     "revision": "e077dcdc699497c5653e",
