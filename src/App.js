@@ -26,6 +26,10 @@ const App = () => {
   });
 
   useEffect(() => {
+    document.title = "React Drawing";
+  }, []);
+
+  useEffect(() => {
     if (!canvasRef.current) {
       return;
     }
