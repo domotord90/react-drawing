@@ -41,19 +41,6 @@ const App = () => {
     };
   }, [startPaint]);
 
-  const paint = useCallback(
-    e => {
-      if (isPainting) {
-        const newMouse = getCoordinates(e);
-        if (mouse && newMouse) {
-          drawLine(mouse, newMouse);
-          setMouse(newMouse);
-        }
-      }
-    },
-    [isPainting, mouse]
-  );
-
   const drawLine = (originalMouse, newMouse) => {
     if (!canvasRef.current) {
       return;
@@ -73,6 +60,19 @@ const App = () => {
       context.stroke();
     }
   };
+
+  const paint = useCallback(
+    e => {
+      if (isPainting) {
+        const newMouse = getCoordinates(e);
+        if (mouse && newMouse) {
+          drawLine(mouse, newMouse);
+          setMouse(newMouse);
+        }
+      }
+    },
+    [isPainting, mouse, drawLine]
+  );
 
   useEffect(() => {
     if (!canvasRef.current) {
@@ -108,7 +108,11 @@ const App = () => {
     }
 
     const canvas = canvasRef.current;
-    return { x: e.pageX - canvas.offsetLeft, y: e.pageY - canvas.offsetTop };
+    const rect = canvas.getBoundingClientRect();
+    return {
+      x: ((e.clientX - rect.left) / (rect.right - rect.left)) * canvas.width,
+      y: ((e.clientY - rect.top) / (rect.bottom - rect.top)) * canvas.height
+    };
   };
 
   const colorOnChange = e => {
@@ -132,12 +136,7 @@ const App = () => {
   const clearOnClick = () => {
     const context = canvasRef.current.getContext("2d");
 
-    context.clearRect(
-      0,
-      0,
-      canvasRef.current.offsetWidth,
-      canvasRef.current.offsetHeight
-    );
+    context.clearRect(0, 0, canvasRef.current.width, canvasRef.current.height);
   };
 
   const saveAsImageOnClick = () => {
