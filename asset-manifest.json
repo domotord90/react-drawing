@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-drawing/static/css/main.759a136c.chunk.css",
+    "main.css": "/react-drawing/static/css/main.c1ed7228.chunk.css",
     "main.js": "/react-drawing/static/js/main.70f48eab.chunk.js",
     "main.js.map": "/react-drawing/static/js/main.70f48eab.chunk.js.map",
     "runtime-main.js": "/react-drawing/static/js/runtime-main.06e82327.js",
@@ -8,15 +8,15 @@
     "static/js/2.43109d01.chunk.js": "/react-drawing/static/js/2.43109d01.chunk.js",
     "static/js/2.43109d01.chunk.js.map": "/react-drawing/static/js/2.43109d01.chunk.js.map",
     "index.html": "/react-drawing/index.html",
-    "precache-manifest.b99b8298ab583ae7b27920f17769425f.js": "/react-drawing/precache-manifest.b99b8298ab583ae7b27920f17769425f.js",
+    "precache-manifest.ad17557555bea93408c79dbf79e3bbfb.js": "/react-drawing/precache-manifest.ad17557555bea93408c79dbf79e3bbfb.js",
     "service-worker.js": "/react-drawing/service-worker.js",
-    "static/css/main.759a136c.chunk.css.map": "/react-drawing/static/css/main.759a136c.chunk.css.map",
+    "static/css/main.c1ed7228.chunk.css.map": "/react-drawing/static/css/main.c1ed7228.chunk.css.map",
     "static/media/App.css": "/react-drawing/static/media/pencil.c024f4e8.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.06e82327.js",
     "static/js/2.43109d01.chunk.js",
-    "static/css/main.759a136c.chunk.css",
+    "static/css/main.c1ed7228.chunk.css",
     "static/js/main.70f48eab.chunk.js"
   ]
 }
